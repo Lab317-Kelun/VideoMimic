@@ -1,0 +1,6 @@
+# A_test 动作数据配置
+- folder_path: "A_test"                                    # 数据文件夹名
+  teacher_checkpoint_run_name: "20250410_063030_g1_deepmimic"  # 教师检查点
+  human_video_data_pattern: "retarget_poses_g1.h5"  # 动作文件名
+  human_video_terrain_pattern: "background_mesh.obj"       # 地形文件名
+  default_data_fps_override: 60                            # 帧率60fps
